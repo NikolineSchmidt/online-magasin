@@ -1,0 +1,40 @@
+/* Hero */
+.article .article-hero{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url("../img/street.coffee.2.jpeg");
+    background-size: cover; 
+    background-position: 50% 60%;
+    background-repeat: no-repeat;  
+    height: 40%;
+    width: 100%;
+}
+
+.article .article-hero h1{
+    color: #ede0ea;
+    font-size: 150px;
+}
+
+/* Content */
+.article .article-content .full {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 130px;
+}
+
+.article .article-content .full p {
+    width: 50%;
+}
+
+
+.article .article-content .split {
+
+}
+
+.article .article-content .background-img {
+    background-image: url("../img/monk.jpeg");
+    width: 50%;
+}
+    
