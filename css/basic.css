@@ -10,8 +10,12 @@ h1, h2, h3{
     font-family: "Caveat", cursive;
     font-weight: 100;
 }
-h3{
+h3 a{
     font-size: 25px;
+    font-family: "Caveat", cursive;
+    font-weight: 100;
+    text-decoration: none;
+    color: #000;
 }
 p, a{
     font-family: "Source Sans 3", sans-serif;
