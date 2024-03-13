@@ -6,9 +6,19 @@
 body{
     background-color:#ede0ea;
 }
-h1, h2, h3{
+h1{
     font-family: "Caveat", cursive;
     font-weight: 100;
+}
+h2{
+    font-family: "Caveat", cursive;
+    font-weight: 100;
+    font-size: 50px;
+}
+h3{
+    font-family: "Caveat", cursive;
+    font-weight: 100;
+    font-size: 30px;
 }
 h3 a{
     font-size: 25px;
@@ -17,7 +27,7 @@ h3 a{
     text-decoration: none;
     color: #000;
 }
-p, a{
+p, a, li{
     font-family: "Source Sans 3", sans-serif;
 }
 
