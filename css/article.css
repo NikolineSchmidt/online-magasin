@@ -30,11 +30,30 @@
 
 
 .article .article-content .split {
-
+    display: flex;
+    flex-direction: row;
 }
 
 .article .article-content .background-img {
-    background-image: url("../img/monk.jpeg");
+    height: 100vh;
     width: 50%;
 }
-    
+
+.article .article-content .tekst {
+    position: relative;
+    width: 50%;
+    padding: 100px;
+}
+
+.article .article-content .tekst h2 {
+    position: absolute; 
+    top: 0%; 
+    left: 0%; 
+    transform: translate(-50%, -50%); 
+    color: #000; 
+    font-size: 158px; 
+}
+
+.article .article-content .tekst.left h2 {
+    transform: translate(50%, -50%) !important; 
+}
