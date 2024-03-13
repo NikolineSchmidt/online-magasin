@@ -1,0 +1,21 @@
+.front-page {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.front-page .background-img {
+    background-image: url("../img/monk.jpeg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;  
+    height: 100%;
+    width: 50%;
+}
+
+.front-page .tagline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+}
