@@ -1,3 +1,4 @@
+  /* Hele top nav */
   .top-nav{
     display: flex;
     justify-content: space-between;
@@ -33,14 +34,15 @@
     text-decoration: none;
     font-size: 15px;
   }
-  
+  /* undermenu */
   .top-menu ul li ul {
     display: none;
     position: absolute;
-    /* border: #000 solid 1px; */
+    border: #000 solid 1px;
     background-color: #ede0ea;
   }
   
+  /* Når mussen er over et menupunkt, vises undermenuerne */
   .top-menu ul li:hover ul {
     display: block;
   }
@@ -49,8 +51,9 @@
     display: block;
   }
 
+  /* Når mussen er over et menupunkt, i undermenuen for dette en baggrundsfarve */
   .top-menu ul li ul li:hover {
-    background-color:#ebd1e5;
+    background-color:#fff;
   }
   
   .top-menu ul li ul li a {

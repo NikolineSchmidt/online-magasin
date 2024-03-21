@@ -1,16 +1,29 @@
+/* hele forsiden */
 .front-page {
     display: flex;
     flex-direction: row;
     height: 100vh;
 }
+
+/* venstre side */
 .front-page .background-img {
     width: 50%;
 }
 
+/* højre side */
 .front-page .tagline {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
     width: 50%;
+}
+
+.front-page .tagline h1 {
+    width: 50%;
+}
+
+.front-page .tagline h1 span {
+    font-size: 55px;
+    font-weight: bold;
 }

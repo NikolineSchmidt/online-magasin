@@ -1,4 +1,4 @@
-/* Hero */
+/* Top hero på alle artikler */
 .article .article-hero{
     display: flex;
     align-items: flex-end;
@@ -15,7 +15,7 @@
     font-size: 150px;
 }
 
-/* Content full */
+/* Artikel sektioner med fuld bredte */
 .article .article-content .full {
     display: flex;
     justify-content: center;
@@ -23,21 +23,23 @@
     padding: 130px;
 }
 
+/* Artikel sektioner med fuld bredte, hvor indholdet kun fylder 50% */
 .article .article-content .full div {
     width: 50%;
 }
 
-
-/* Content split */
+/* Artikel sektioner, der er delt over 50/50 */
 .article .article-content .split{
     display: flex;
     flex-direction: row;
 }
 
+/* Mulighed for at lægge noget luft i bunden af en sektion */
 .article .article-content .split.space{
     margin-bottom: 150px;
 }
 
+/* Mulighed for at lægge en streg i bunden af en sektion */
 .article .article-content .split.border {
    border-bottom: 1px solid #000;
 }
@@ -47,27 +49,31 @@
 }
 
 
-/* Content content */
+/* Mulighed for at centrere indhold i en sektion */
 .article .article-content .center-content {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* Ekstra styling til baggrundsbilleder på artikler (udover basic styling) */
 .article .article-content .background-img {
     height: 100vh;
 }
 
+/* Almindelig billeder */
 .article .article-content img {
     height: 400px;
     margin: 50px;
 }
 
+/* Luft omkring tekst */
 .article .article-content .tekst {
     position: relative;
     padding: 100px;
 }
 
+/* Store overskrifter */
 .article .article-content .tekst h2 {
     position: absolute; 
     top: 0%; 
@@ -77,10 +83,36 @@
     font-size: 158px; 
 }
 
+/* Store overskrifter i venstre side */
 .article .article-content .tekst.left h2 {
     transform: translate(50%, -50%) !important; 
 }
 
+/* Liste */
+.article .article-content ul {
+    margin-top: 15px;
+    list-style-type: none;
+    padding: 0;
+}
 .article .article-content ul li {
-    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Billeder ved siden af hinanden */
+.article .article-content .billeder {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.article .article-content .billeder img {
+    width: 300px;
+    height: auto;
+    margin: 0;
+    margin-right: 10px;
+
 }
