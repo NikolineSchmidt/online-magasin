@@ -1,5 +1,5 @@
   /* Hele top nav */
-  .top-nav{
+ nav{
     display: flex;
     justify-content: space-between;
     border-bottom: #000 solid 1px;
@@ -8,11 +8,11 @@
   }
 
   /* logo */
-  .top-nav .logo{
+ nav .logo{
     padding: 5px 10px;
   }
 
-  .top-nav .logo h3{
+ nav .logo h3{
     margin: 0;
   }
 
